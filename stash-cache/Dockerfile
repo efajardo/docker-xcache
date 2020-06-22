@@ -3,7 +3,7 @@ FROM opensciencegrid/xcache:fresh
 LABEL maintainer OSG Software <help@opensciencegrid.org>
 
 RUN yum -y install stash-cache --enablerepo=osg-testing && \
-    yum -y update xrootd* --enablerepo=osg-upcoming-development && \
+    yum -y update xrootd* --enablerepo=osg-upcoming-development  && \
     yum -y install emacs && \
     yum clean all --enablerepo=* && rm -rf /var/cache/
 
