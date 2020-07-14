@@ -11,7 +11,6 @@ ADD cron.d/* /etc/cron.d/
 RUN chmod 0644 /etc/cron.d/*
 ADD supervisord.d/* /etc/supervisord.d/
 ADD image-config.d/* /etc/osg/image-config.d/
-ADD etc/xrootd/config.d/* /etc/xrootd/config.d/
 
 # Add a placeholder authfile, incase this cache isn't registered
 # and can't pull down a new one
