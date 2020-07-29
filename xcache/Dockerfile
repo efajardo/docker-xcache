@@ -1,4 +1,4 @@
-FROM opensciencegrid/software-base:fresh
+FROM efajardo/software-base:el8
 
 LABEL maintainer OSG Software <help@opensciencegrid.org>
 
