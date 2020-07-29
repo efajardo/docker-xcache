@@ -1,4 +1,4 @@
-FROM efajardo/software-base:el8
+FROM efajardo/docker-software-base:el8
 
 LABEL maintainer OSG Software <help@opensciencegrid.org>
 
