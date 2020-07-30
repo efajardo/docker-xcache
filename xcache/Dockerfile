@@ -3,7 +3,7 @@ FROM efajardo/docker-software-base:el8
 LABEL maintainer OSG Software <help@opensciencegrid.org>
 
 # Specify the base Yum repository to get the necessary RPMs
-ARG BASE_YUM_REPO
+ARG BASE_YUM_REPO=osg-minefield
 
 # Default root dir
 ENV XC_ROOTDIR /xcache/namespace
