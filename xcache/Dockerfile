@@ -1,5 +1,6 @@
 FROM opensciencegrid/software-base:el8-fresh
 
+
 LABEL maintainer OSG Software <help@opensciencegrid.org>
 
 # Specify the base Yum repository to get the necessary RPMs
