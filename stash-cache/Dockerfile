@@ -1,9 +1,9 @@
-FROM opensciencegrid/xcache:fresh
+FROM efajardo/xcache:el8
 
 LABEL maintainer OSG Software <help@opensciencegrid.org>
 
 # Specify the base Yum repository to get the necessary RPMs
-ARG BASE_YUM_REPO
+ARG BASE_YUM_REPO=osg-minefield
 
 ENV XC_IMAGE_NAME stash-cache
 
